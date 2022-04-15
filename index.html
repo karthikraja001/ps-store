@@ -4,16 +4,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/home.css">
     <script src="https://cdn.jsdelivr.net/npm/three@0.139.2/build/three.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/three@0.139.2/examples/js/loaders/GLTFLoader.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
     <script src="https://cdn.jsdelivr.net/npm/three@0.139.2/examples/js/controls/OrbitControls.js"></script>
 </head>
 
 <body>
-    <a href="products/ps5digital.html">PS5 Digital</a>
+    <!-- <a href="products/ps5digital.html">PS5 Digital</a>
     <a href="products/ps5dualsense.html">PS5 DualSense</a>
-    <a href="products/ps5vr.html">PS5 VR Headset</a>
+    <a href="products/ps5vr.html">PS5 VR Headset</a> -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#theme"><img src="icons/logo.png" alt="Playstation Logo"></a>
+            </div>
+
+            <ul class="navlinks">
+                <li><a href="#specs">Specs</a></li>
+                <li><a href="#accessories">Accessories</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="theme">
+            <div class="theme">
+                <div class="theme-video">
+                    <video src="vid/ps5.mp4" autoplay loop muted></video>
+                </div>
+
+                <div class="theme-text">
+                    <h1>Launches November 12, 2020</h1>
+                    <a href="products/ps5digital.html" target="_blank" class="button">View PS5™ Digital</a>
+                </div>
+            </div>
+        </section>
+        <section id="specs">
+            <h1>Specifications</h1>
+            <div class="specs">
+                <div class="spec-info">
+                    <img src="icons/speedm.png" alt="ssd icon">
+                    <h3>Ultra-high speed SSD</h3>
+                    <p>Maximize your play sessions with near instant load times for installed PS5™ games with read speeds of up to 5.5 GB/s.</p>
+                </div>
+
+                <div class="spec-info">
+                    <img src="icons/iom.png" alt="io icon">
+                    <h3>Integrated I/O</h3>
+                    <p>The custom integration of the PS5 systems lets creators pull data from the SSD so quickly that they can design games impossible before.</p>
+                </div>
+
+                <div class="spec-info">
+                    <img src="icons/fps.png" alt="fps icon">
+                    <h3>Up to 120fps</h3>
+                    <p>Enjoy smooth and fluid high frame rate gameplay at up to 120fps for compatible  games, with support on 4K displays.</p>
+                </div>
+
+                <div class="spec-info">
+                    <img src="icons/backwardm.png" alt="backward icon">
+                    <h3>Backwards compatibility</h3>
+                    <p>Play a back catalog of 99% of PS4™ games on your PS5 console both digitally and physically.</p>
+                </div>
+
+                <div class="spec-info">
+                    <img src="icons/audiom.png" alt="audio icon">
+                    <h3>Tempest 3D AudioTech</h3>
+                    <p>Immerse yourself in soundscapes where it feels as if the sound comes from every direction.</p>
+                </div>
+
+                <div class="spec-info">
+                    <img src="icons/hdrm.png" alt="hdr icon">
+                    <h3>HDR technology</h3>
+                    <p>With an HDR TV, supported PS5 games display an unbelievably vibrant and lifelike range of colors.</p>
+                </div>
+            </div>
+        </section>
+        <section id="accessories">
+            <h1>Accessories</h1>
+
+            <div class="accessories">
+                <div class="accessory-card controller">
+                    <img src="img/controller.jpg" alt="DualSense Controller" class="accessoryphoto">
+                    <div class="accessory-info">
+                        <h3>Dual Sense Controller</h3>
+                        <p>Discover a deeper, highly immersive gaming experience with the innovative new PS5™ controller, featuring haptic feedback and dynamic trigger effects.</p>
+                        <a href="products/ps5dualsense.html" target="_blank" class="viewmodel">3D View</a>
+                    </div>
+                </div>
+                <div class="accessory-card vr">
+                    <img src="img/psvr.jpg" alt="Play Station VR Headset" class="accessoryphoto">
+                    <div class="accessory-info">
+                        <h3>Play Station™ VR Headset</h3>
+                        <p>Play in comfort with a VR headset fine-tuned for 3D Audio on PS5 consoles.</p>
+                        <a href="products/ps5vr.html" target="_blank" class="viewmodel">3D View</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="copyright">
+            <p>&copy; 2022 Sony Entertainment LLC</p>
+        </div>
+    </footer>
 </body>
 </html>
