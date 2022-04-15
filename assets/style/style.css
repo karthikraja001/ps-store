@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+canvas {
+    width: 100%;
+    height: 100%;
+    bottom: 5%;
+    right: 2%;
+}
+.circle1 {
+    background: red;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    bottom: 5%;
+    right: 12%;
+}
+.circle2 {
+    background: blue;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    bottom: 5%;
+    right: 9.5%;
+}
+.circle3 {
+    background: green;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    bottom: 5%;
+    right: 7%;
+}
+.circle4 {
+    background: yellow;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    bottom: 5%;
+    right: 4.5%;
+}
+.circle5 {
+    background: white;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    bottom: 5%;
+    right: 2%;
+}
+.btns > * {
+    position: absolute;
+    vertical-align: middle;
+    display: inline-block;
+    z-index: 99;
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+}
+/* create media query */
+@media screen and (max-width: 600px) {
+    .circle1 {
+        background: red;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        bottom: 5%;
+        right: 12%;
+    }
+    .circle2 {
+        background: blue;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        bottom: 5%;
+        right: 9.5%;
+    }
+    .circle3 {
+        background: green;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        bottom: 5%;
+        right: 7%;
+    }
+    .circle4 {
+        background: yellow;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        bottom: 5%;
+        right: 4.5%;
+    }
+    .circle5 {
+        background: white;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        bottom: 5%;
+        right: 2%;
+    }
+}
