@@ -131,12 +131,12 @@
     // camera.position.set(0, 0, 0);
 
     const controls = new THREE.OrbitControls( camera, renderer.domElement );
-    camera.position.set( 0, 0.3, 0.2 );
+    camera.position.set( 0, 90, 90 );
     controls.enablePan = true;
     controls.update();
     scene.background = new THREE.Color(0xFFFFFF);
-    controls.maxDistance = 0.6;
-    controls.minDistance = 0.2;
+    controls.maxDistance = 150;
+    controls.minDistance = 100;
 
     var loader = new THREE.GLTFLoader();
     var obj;
